@@ -1,6 +1,10 @@
 let form = document.querySelector(".form");
 let input = document.querySelector("input");
 let password = document.getElementById("password");
+let eye = document.getElementById("eye").addEventListener("click", ()=>{
+  password.type = password.type == "text" ? "password" : "text"
+});
+
 const storage = window.localStorage;
 
 import { data } from "./database.js";
