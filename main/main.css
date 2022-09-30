@@ -18,7 +18,7 @@ body {
 .wrapper-box {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #ff7143;
 }
 
@@ -103,7 +103,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   text-align: center;
   color: #000000;
 }
@@ -112,7 +111,6 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  /* identical to box height, or 160% */
   font-style: normal;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
@@ -130,12 +128,12 @@ body {
 }
 
 .right-box__title {
+  text-align: center;
   margin-bottom: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  /* identical to box height, or 125% */
   color: #000000;
 }
 
@@ -144,7 +142,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   color: #000000;
 }
 
@@ -153,7 +150,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   color: #000000;
 }
 
@@ -162,7 +158,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   color: #000000;
 }
 
@@ -182,7 +177,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   color: #aaaaaa;
@@ -193,7 +187,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   color: #aaaaaa;
@@ -204,7 +197,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   color: #aaaaaa;
@@ -221,7 +213,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   margin-top: 32px;
   margin-bottom: 16px;
   display: flex;
@@ -235,7 +226,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   text-align: center;
   color: #000000;
 }
@@ -245,7 +235,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   text-align: center;
   color: #ff7143;
 }
@@ -257,4 +246,4 @@ body {
 
 .eye {
   cursor: pointer;
-}/*# sourceMappingURL=main.css.map */
+}
