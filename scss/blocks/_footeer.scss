@@ -1,0 +1,36 @@
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-inner__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.innger-text__link > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.innger-text__link > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.heart{
+    fill: red;
+}

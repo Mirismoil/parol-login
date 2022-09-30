@@ -1,0 +1,111 @@
+.hero-section{
+  background-image: url("../../images/bg-img.png");
+  background-repeat: no-repeat;
+  margin-top: -1px;
+  height: 1500px;
+}
+.hero {
+  padding-bottom: 93px;
+}
+.hero-title {
+  width: 474px;
+}
+.hero-title > h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 71px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-text {
+  width: 356px;
+  margin-left: 184px;
+}
+.hero-text > p {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.hero-list {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 1040px;
+}
+.hero-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #3e3e3e 0%, #232323 100%);
+  border-radius: 10px;
+}
+.hero-item__wrapper {
+  width: 481px;
+}
+.hero-item__wrapper > p {
+  padding: 29px 0px 29px 40px;
+  margin: 0;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-item__img{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img2{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img3{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img4{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img5{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__list,.hero-item__list2, .hero-item__list3, .hero-item__list4, .hero-item__list5{
+  width: 960px;
+  margin: 0;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left:46px;
+  display: none;
+  list-style: none;
+  background: #e1e1e1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.menu-active,.menu-active2,.menu-active3,.menu-active4,.menu-active5{
+  display: block;
+}
+.list-item__text{
+  width: 565px;
+}
+.list-item__text > p {
+  margin: 0;
+  padding: 30px 0 30px 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}

@@ -1,0 +1,169 @@
+.section-contact {
+  background-image: url("../../images/onasbg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 1300px;
+  margin-top: -1px;
+  height: 923px;
+}
+.wrapper-contact__box {
+  display: flex;
+  align-items: center;
+}
+.contact-box__title {
+  padding-top: 130px;
+  width: 283px;
+}
+.contact-box__title > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contact-box__text {
+  margin-left: 55px;
+  margin-bottom: 58px;
+  width: 254px;
+}
+.contact-box__text > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  opacity: 0.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contaxt-box__scholl {
+  position: relative;
+  padding: 31px 27px 0px 27px;
+  border: 1px solid #343434;
+  border-radius: 10px;
+  width: 585px;
+  height: 487px;
+}
+.box-scholl__title {
+  width: 448px;
+  margin-bottom: 24px;
+}
+.box-scholl__title > h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.box-scholl__text {
+  width: 392px;
+  margin-bottom: 60px;
+}
+.box-scholl__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.box-scholl__title1 {
+  width: 519px;
+  margin-bottom: 20px;
+}
+.box-scholl__title1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.box-scholl__text1 {
+  width: 394px;
+}
+.box-scholl__text1 > p {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.box-scholl__mission {
+  position: absolute;
+  top: 453px;
+  left: 83px;
+  z-index: 20;
+  padding: 18px 48px 27px 34px;
+  background-image: url("../../images/soziorqasi.svg");
+  background-repeat: no-repeat;
+}
+.box-scholl__mission > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.scholl-mission__text {
+  width: 460px;
+}
+.scholl-mission__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 101%;
+  color: #ffffff;
+}
+.contacnt-box__bottom {
+  background-image: url("../../images/nimadir.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 29px;
+}
+.box-bottom__text {
+  position: absolute;
+  top: 415px;
+  left: 61px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mac {
+  position: relative;
+  z-index: 2;
+}
+.pause{
+  position: absolute;
+  top: 112px;
+  left: 315px;
+  z-index: 4;
+}
+.vector-top{
+  position: absolute;
+  top: 19px;
+  left: 459px;
+  z-index: 4;
+}
+.yellow{
+  position: absolute;
+  top: 231px;
+  left: 147px;
+  z-index: 4;
+}
+.vector2 {
+  position: absolute;
+  top: 464px;
+  left: 156px;
+}
+.polygan {
+  position: absolute;
+     top: 60px;
+    left: 61px;
+}

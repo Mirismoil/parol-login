@@ -1,8 +1,8 @@
 let form = document.querySelector(".form");
 let input = document.querySelector("input");
 let password = document.getElementById("password");
-let eye = document.getElementById("eye").addEventListener("click", ()=>{
-  password.type = password.type == "text" ? "password" : "text"
+let eye = document.getElementById("eye").addEventListener("click", () => {
+  password.type = password.type == "text" ? "password" : "text";
 });
 
 const storage = window.localStorage;
@@ -18,6 +18,6 @@ form.addEventListener("submit", (event) => {
     alert("login yoki parol xato boshidan kiriting");
   } else {
     storage.setItem("token", JSON.stringify(person));
-    window.location.replace("./site.html");
+    window.location.replace("./lending.html");
   }
 });
