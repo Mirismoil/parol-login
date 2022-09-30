@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.wrapper-box {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #ff7143;
+}
+.left-box {
+  text-align: center;
+  width: 480px;
+  padding: 60px 0 60px 0;
+  margin-left: 125px;
+}
+.left-box__top {
+  margin-bottom: 80px;
+  width: 479px;
+}
+.img_star {
+  display: inline-block;
+  // align-items: center;
+  // justify-content: center ;
+  margin: auto;
+  // text-align: center;
+}
+.left-box__top > h2 {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+.left-box__top > p {
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.a1 {
+  padding: 20px 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 6px;
+}
+.a2 {
+  padding: 20px 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.left-box__bottom {
+  text-align: center;
+}
+.left-box__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.box-bottom__p {
+  font-style: small;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #000000;
+}
+.box-bottom__strong {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  font-style: normal;
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.right-box {
+  margin: 0 auto;
+  margin-top:60px ;
+  margin-bottom: 60px;
+  padding: 40px 40px;
+  background: #ffffff;
+  box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
+  width: 440px;
+}
+.right-box__title {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  color: #000000;
+}
+.form_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+.form_pas {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+.form-chek {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+.input1 {
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  width: 360px;
+  height: 64px;
+  padding: 20px 36px 20px 36px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.input1::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #aaaaaa;
+}
+.form-chek {
+  display: inline;
+}
+.form-button {
+  background: #000000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-top: 32px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  padding: 20px 154px;
+  color: #ffffff;
+}
+.p1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #000000;
+}
+.strong {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #ff7143;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+.eye{
+  cursor: pointer;
+}
