@@ -29,9 +29,9 @@ function makelogout(){
     window.location.reload();
 }
 
-let time = setTimeout(makelogout , 10000);
+let time = setTimeout(makelogout , 30000);
 
 window.addEventListener("mousemove",(event)=>{
     clearTimeout(time)
-    time = setTimeout(makelogout , 10000)
+    time = setTimeout(makelogout , 30000)
 })

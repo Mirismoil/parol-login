@@ -1,0 +1,99 @@
+body {
+  height: 870px;
+}
+.imgss {
+  width: 1349px;
+}
+.wrapper-login {
+  position: absolute;
+  top: 15%;
+  left: 28%;
+  padding: 70px;
+  width: 610px;
+  height: 730px;
+  background-image: url("../../images/loginorqasi.png");
+  background-repeat: no-repeat;
+  text-align: center;
+    //   border-radius: 15px;
+    //   border-top-right-radius: 30px;
+    //   border-bottom-left-radius: 25px;
+    //   border-bottom-right-radius: 50px;
+}
+.login-box__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.login-box__text1 {
+  font-style: italic;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.login-box__text2 {
+  margin-bottom: 43px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+.login-form__text {
+  margin-bottom: 6px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.login-form__input {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 16px;
+  gap: 10px;
+  width: 461px;
+  height: 49px;
+  background: #3d3d3d;
+  border-radius: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-form__input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7e7e7e;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.button {
+  margin-top: 30px;
+  padding: 23px 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #515151;
+  background: #d9e454;
+  box-shadow: 0px 0px 11px #d9e454;
+  border-radius: 25px;
+  border: transparent;
+  cursor: pointer;
+}
