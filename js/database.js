@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    login: "ali",
+    login: "Ali",
     password: 123,
   },
   {

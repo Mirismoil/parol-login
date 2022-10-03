@@ -24,4 +24,14 @@ setInterval(function(){
 },1000);
 
 
+function makelogout(){
+    storage.removeItem("token");
+    window.location.reload();
+}
 
+let time = setTimeout(makelogout , 10000);
+
+window.addEventListener("mousemove",(event)=>{
+    clearTimeout(time)
+    time = setTimeout(makelogout , 10000)
+})
