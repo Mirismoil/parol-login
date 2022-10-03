@@ -1385,6 +1385,7 @@ body {
 }
 
 .wrapper-login {
+  display: block;
   position: absolute;
   top: 15%;
   left: 28%;
@@ -1501,6 +1502,14 @@ body {
   border-radius: 25px;
   border: transparent;
   cursor: pointer;
+}
+
+.stop-img {
+  background-color: wheat;
+  position: absolute;
+  top: 250px;
+  left: 532px;
+  display: none;
 }
 
 .footer-inner {
